@@ -20,7 +20,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=1000&repeat=false&color=C9D1D9&background=00000000&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Enklid.+I+train+models+and+try+to+point+them+at+things+I+love." />
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=1000&repeat=false&color=24292F&background=00000000&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Enklid.+I+train+models+and+point+them+at+things+I+love." />
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=1000&repeat=false&color=C9D1D9&background=00000000&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Enklid.+I+train+models+and+try+to+point+them+at+things+I+love." alt="intro line" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=1000&repeat=false&color=C9D1D9&background=00000000&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Enklid.+I+train+models+and+point+them+at+things+I+love." alt="intro line" />
   </picture>
 </div>
 
