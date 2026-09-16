@@ -149,7 +149,7 @@ A few highlights from client and research work. Not everything, just what I can 
 
 ---
 
-<div align="center">
+<!-- <div align="center">
 
 ### Connect
 
@@ -157,4 +157,4 @@ A few highlights from client and research work. Not everything, just what I can 
 <a href="mailto:hox.enklid@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="KAG_AI_LINK"><img src="https://img.shields.io/badge/KAG_AI-grey?style=flat-square" alt="KAG AI" /></a>
 
-</div>
+</div> -->
