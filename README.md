@@ -82,11 +82,14 @@ I build the infrastructure that gets machine learning out of notebooks and into 
 ### Repositories
 
 <!-- REPOS-START -->
-| Repository | Description | Language | ⭐ | Updated |
-|---|---|---|---|---|
-| [hox3n](https://github.com/hox3n/hox3n) |  | — | 0 | 2026-09-16 |
-| [mikrotez](https://github.com/hox3n/mikrotez) |  | HTML | 0 | 2025-09-22 |
-| [app-portfolio-agent](https://github.com/hox3n/app-portfolio-agent) |  | Python | 0 | 2025-09-17 |
+<div align="center">
+
+<a href="https://github.com/hox3n/hox3n"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=hox3n&theme=github_dark&hide_border=true" alt="hox3n" /></a>
+<a href="https://github.com/hox3n/mikrotez"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=mikrotez&theme=github_dark&hide_border=true" alt="mikrotez" /></a>
+<br/>
+<a href="https://github.com/hox3n/app-portfolio-agent"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=app-portfolio-agent&theme=github_dark&hide_border=true" alt="app-portfolio-agent" /></a>
+
+</div>
 <!-- REPOS-END -->
 
 <sub>This table is rewritten automatically by <code>.github/workflows/update-readme.yml</code>, which pulls every public, non-fork repo from the GitHub API (newest activity first), refreshed every 5 hours.</sub>
