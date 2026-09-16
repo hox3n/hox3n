@@ -95,8 +95,6 @@ A few highlights from client and research work. Not everything, just what I can 
 </div>
 <!-- REPOS-END -->
 
-<sub>These cards are generated automatically by <code>.github/workflows/update-readme.yml</code>, which pulls every public, non-fork repo from the GitHub API (newest activity first), refreshed every 5 hours.</sub>
-
 ---
 
 ### GitHub Stats
