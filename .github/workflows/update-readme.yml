@@ -63,10 +63,20 @@ jobs:
                       f"?username={owner}&repo={r['name']}&theme=github_dark&hide_border=true"
                   )
                   cards.append(
-                      f'<a href="{r["html_url"]}"><img height="150em" src="{img}" alt="{r["name"]}" /></a>'
+                      f'<a href="{r["html_url"]}"><img width="400" src="{img}" alt="{r["name"]}" /></a>'
                   )
-              rows = ["\n".join(cards[i:i + 2]) for i in range(0, len(cards), 2)]
-              block = '<div align="center">\n\n' + "\n<br/>\n".join(rows) + "\n\n</div>"
+              rows_html = []
+              for i in range(0, len(cards), 2):
+                  pair = cards[i:i + 2]
+                  cells = "".join(f'<td align="center">{c}</td>' for c in pair)
+                  if len(pair) == 1:
+                      cells += "<td></td>"
+                  rows_html.append(f"<tr>{cells}</tr>")
+              block = (
+                  '<table align="center">\n<tbody>\n'
+                  + "\n".join(rows_html)
+                  + "\n</tbody>\n</table>"
+              )
 
           with open("README.md", "r") as f:
               content = f.read()
