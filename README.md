@@ -1,4 +1,4 @@
-<!-- Replace hox3n with your GitHub username (Find & Replace All) -->
+<!-- Replace YOUR_USERNAME with your GitHub username (Find & Replace All) -->
 <!-- The Repositories table below is filled in automatically by the GitHub Action -->
 
 <div align="center">
@@ -10,7 +10,7 @@
 </picture>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=hox3n&style=flat-square&label=PROFILE+VIEWS&color=grey" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&label=PROFILE+VIEWS&color=grey" alt="Profile views" />
   <img src="https://img.shields.io/badge/Location-Tirana%2C%20Albania-grey?style=flat-square" alt="Location" />
 </p>
 
@@ -82,17 +82,10 @@ I build the infrastructure that gets machine learning out of notebooks and into 
 ### Repositories
 
 <!-- REPOS-START -->
-<div align="center">
-
-<a href="https://github.com/hox3n/hox3n"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=hox3n&theme=github_dark&hide_border=true" alt="hox3n" /></a>
-<a href="https://github.com/hox3n/mikrotez"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=mikrotez&theme=github_dark&hide_border=true" alt="mikrotez" /></a>
-<br/>
-<a href="https://github.com/hox3n/app-portfolio-agent"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=app-portfolio-agent&theme=github_dark&hide_border=true" alt="app-portfolio-agent" /></a>
-
-</div>
+<sub>⏳ populated automatically by the GitHub Action below on first run</sub>
 <!-- REPOS-END -->
 
-<sub>This table is rewritten automatically by <code>.github/workflows/update-readme.yml</code>, which pulls every public, non-fork repo from the GitHub API (newest activity first), refreshed every 5 hours.</sub>
+<sub>These cards are generated automatically by <code>.github/workflows/update-readme.yml</code>, which pulls every public, non-fork repo from the GitHub API (newest activity first), refreshed every 5 hours.</sub>
 
 ---
 
@@ -101,14 +94,14 @@ I build the infrastructure that gets machine learning out of notebooks and into 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=hox3n&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58A6FF&title_color=58A6FF" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=hox3n&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=hox3n&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58A6FF&title_color=58A6FF" alt="GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58A6FF&title_color=58A6FF" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58A6FF&title_color=58A6FF" alt="GitHub stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=hox3n&layout=compact&theme=github_dark&hide_border=true&langs_count=10&title_color=58A6FF" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=hox3n&layout=compact&theme=default&hide_border=true&langs_count=10" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hox3n&layout=compact&theme=github_dark&hide_border=true&langs_count=10&title_color=58A6FF" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true&langs_count=10&title_color=58A6FF" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=default&hide_border=true&langs_count=10" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true&langs_count=10&title_color=58A6FF" alt="Top languages" />
 </picture>
 
 </div>
@@ -116,9 +109,9 @@ I build the infrastructure that gets machine learning out of notebooks and into 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=hox3n&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=58A6FF" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=hox3n&theme=default&hide_border=true" />
-  <img src="https://streak-stats.demolab.com?user=hox3n&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=58A6FF" alt="GitHub streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=58A6FF" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=default&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=58A6FF" alt="GitHub streak" />
 </picture>
 
 </div>
@@ -130,9 +123,9 @@ I build the infrastructure that gets machine learning out of notebooks and into 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-liard-delta.vercel.app/?username=hox3n&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy-liard-delta.vercel.app/?username=hox3n&theme=flat&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
-  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=hox3n&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub trophies" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-liard-delta.vercel.app/?username=YOUR_USERNAME&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy-liard-delta.vercel.app/?username=YOUR_USERNAME&theme=flat&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
+  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=YOUR_USERNAME&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub trophies" />
 </picture>
 
 </div>
@@ -141,7 +134,7 @@ I build the infrastructure that gets machine learning out of notebooks and into 
 
 ### Research & Highlights
 
-- **Thesis:** *Classification of Architectural Styles in Images with Historical and Geographical Attribution* — a computer vision project ([code](https://github.com/hox3n/THESIS_REPO)).
+- **Thesis:** *Classification of Architectural Styles in Images with Historical and Geographical Attribution* — a computer vision project ([code](https://github.com/YOUR_USERNAME/THESIS_REPO)).
 - **KAG AI:** co-founded an AI research group spanning Kosovo, Albania, and Greece; authored articles on CNNs in medicine and architectural design, currently researching LLMs.
 - Former core member of the **Google Developers Club**, American College of Thessaloniki.
 
