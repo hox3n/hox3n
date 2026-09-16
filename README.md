@@ -1,4 +1,4 @@
-<!-- Replace YOUR_USERNAME with your GitHub username (Find & Replace All) -->
+<!-- Replace hox3n with your GitHub username (Find & Replace All) -->
 <!-- Replace REPO_ONE / REPO_TWO / REPO_THREE / REPO_FOUR with your actual repo names for the pinned cards -->
 
 <div align="center">
@@ -7,7 +7,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/00_STATUS-ONLINE-58A6FF?style=for-the-badge&labelColor=0d1117" alt="status" />
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=0d1117&style=for-the-badge&label=VISITORS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=hox3n&color=0d1117&style=for-the-badge&label=VISITORS" alt="Profile views" />
   <img src="https://img.shields.io/badge/BASE-TIRANA_%F0%9F%87%A6%F0%9F%87%B1-0d1117?style=for-the-badge" alt="Location" />
 </p>
 
@@ -83,9 +83,11 @@ engineer:
 ### PINNED REPOSITORIES
 
 <!-- REPOS-START -->
-<div align="center">
-<sub>⏳ populated automatically by the GitHub Action below on first run</sub>
-</div>
+| Repository | Description | Language | ⭐ | Updated |
+|---|---|---|---|---|
+| [hox3n](https://github.com/hox3n/hox3n) |  | — | 0 | 2026-09-16 |
+| [mikrotez](https://github.com/hox3n/mikrotez) |  | HTML | 0 | 2025-09-22 |
+| [app-portfolio-agent](https://github.com/hox3n/app-portfolio-agent) |  | Python | 0 | 2025-09-17 |
 <!-- REPOS-END -->
 
 <sub>💡 This block is rewritten automatically by <code>.github/workflows/update-readme.yml</code>, which pulls your top repos by stars straight from the GitHub API — nothing to type in by hand.</sub>
@@ -95,23 +97,23 @@ engineer:
 ### GITHUB STATS
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true&langs_count=10" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hox3n&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hox3n&layout=compact&theme=github_dark&hide_border=true&langs_count=10" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=hox3n&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=github-compact&hide_border=true&area=true&bg_color=0d1117" alt="Contribution graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hox3n&theme=github-compact&hide_border=true&area=true&bg_color=0d1117" alt="Contribution graph" width="100%" />
 </div>
 
 ---
 
 ### RESEARCH & HIGHLIGHTS
 
-- 🎓 **Thesis:** *Classification of Architectural Styles in Images with Historical and Geographical Attribution* — a computer vision project ([code](https://github.com/YOUR_USERNAME/THESIS_REPO)).
+- 🎓 **Thesis:** *Classification of Architectural Styles in Images with Historical and Geographical Attribution* — a computer vision project ([code](https://github.com/hox3n/THESIS_REPO)).
 - 🧪 **KAG AI:** co-founded an AI research group spanning Kosovo, Albania, and Greece; authored articles on CNNs in medicine and architectural design, currently researching LLMs.
 - 👥 Former core member of the **Google Developers Club**, American College of Thessaloniki.
 
