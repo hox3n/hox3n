@@ -1,50 +1,51 @@
-<!-- Replace hox3n with your GitHub username (Find & Replace All) -->
+<!-- Replace YOUR_USERNAME with your GitHub username (Find & Replace All) -->
 <!-- The Repositories table below is filled in automatically by the GitHub Action -->
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=160&section=header&text=ENKLID%20HOXHA&fontSize=44&fontColor=C9D1D9&fontAlignY=40&desc=AI%20%2F%20ML%20Platform%20Engineer&descAlignY=62&descSize=16&descColor=8B949E" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:f6f8fa,100:ffffff&height=160&section=header&text=ENKLID%20HOXHA&fontSize=44&fontColor=1F2937&fontAlignY=40&desc=AI%20%2F%20ML%20Platform%20Engineer&descAlignY=62&descSize=16&descColor=57606a" />
-  <img alt="header" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=160&section=header&text=ENKLID%20HOXHA&fontSize=44&fontColor=C9D1D9&fontAlignY=40&desc=AI%20%2F%20ML%20Platform%20Engineer&descAlignY=62&descSize=16&descColor=8B949E" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=160&section=header&text=ENKLID%20HOXHA&fontSize=44&fontColor=C9D1D9&fontAlignY=40&desc=AI+%2F+ML+Engineer+%C2%B7+Computer+Vision+%C2%B7+Always+Experimenting&descAlignY=62&descSize=16&descColor=8B949E" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:f6f8fa,100:ffffff&height=160&section=header&text=ENKLID%20HOXHA&fontSize=44&fontColor=1F2937&fontAlignY=40&desc=AI+%2F+ML+Engineer+%C2%B7+Computer+Vision+%C2%B7+Always+Experimenting&descAlignY=62&descSize=16&descColor=57606a" />
+  <img alt="header" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=160&section=header&text=ENKLID%20HOXHA&fontSize=44&fontColor=C9D1D9&fontAlignY=40&desc=AI+%2F+ML+Engineer+%C2%B7+Computer+Vision+%C2%B7+Always+Experimenting&descAlignY=62&descSize=16&descColor=8B949E" width="100%" />
 </picture>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=hox3n&style=flat-square&label=PROFILE+VIEWS&color=grey" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&label=PROFILE+VIEWS&color=grey" alt="Profile views" />
   <img src="https://img.shields.io/badge/Location-Tirana%2C%20Albania-grey?style=flat-square" alt="Location" />
 </p>
 
 </div>
 
-<p align="center"><i>Building the infrastructure between trained models and production systems — MLOps · RAG · LLM Agents · Data Infrastructure</i></p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=1000&repeat=false&color=8B949E&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Enklid.+I+train+models+and+point+them+at+things+I+love." alt="intro line" />
+</div>
 
 ---
 
 ### About
 
-I build the infrastructure that gets machine learning out of notebooks and into production. Currently designing an **ML productization platform for a clinical remote cardiac-monitoring product** — turning MLflow-registered models into independent, tested, auditable inference microservices on GKE.
+I'm an AI/ML engineer who never really stops experimenting. My day job is building production ML infrastructure, but most of my curiosity goes into training and testing new models on the side. I'm drawn to computer vision most, though I spend plenty of time with LLMs and automation too.
 
-| | |
-|---|---|
-| **Role** | AI / ML Platform Engineer |
-| **Based in** | Tirana, Albania |
-| **Education** | BSc Computer Science — American College of Thessaloniki (3.9 GPA, High Honors) |
-| **Research** | Co-founder @ KAG AI — CNNs in medicine & architecture, now LLM research |
-| **Languages** | Albanian (native), English (C2), German (A2) |
-| **Focus areas** | MLOps · model serving · RAG systems · LLM agents · data pipelines |
+I also have a pretty optimistic view of where AI is headed, which puts me in the minority among people I talk to about it. Some of that comes from Neal Shusterman's *Scythe* trilogy. The Thunderhead is probably my favorite fictional take on what a benevolent AI could look like.
+
+- 🔭 Always training or testing something new, mostly computer vision, but LLMs and agent workflows too
+- 🎨 Especially interested in where ML overlaps with fields outside tech: history, architecture, and law mainly
+- 📚 *Scythe* is one of my favorite book trilogies, largely for how it portrays AI
+- 🎓 Studied Computer Science at the American College of Thessaloniki, graduated with high honors
+- 🗣️ Speak Albanian (native), English, and a bit of German
+- ❓ Happy to talk computer vision, RAG, agent design, or why I think AI optimism is underrated
 
 ---
 
-### What I've Shipped
+### Some Things I've Built
 
-| | |
-|---|---|
-| **Model Productization Platform** | Originated the architecture of a 14k-LOC Python SDK that converts MLflow models into FastAPI inference microservices, gated by a 4-step productization check (version resolve, metadata, dependency check, smoke test) with adapters for scikit-learn, XGBoost, PyTorch, TensorFlow, ONNX, and Transformers. |
-| **CQRS Inference Runtime** | Single, batch, and multi-model inference with a model cache, prediction audit log, and an auto-productization reconciliation loop. |
-| **Data Integration Services** | CQRS transformation service (FastAPI + DataKit) with PostgreSQL → MinIO and MinIO → MinIO ETL, SQL-like Parquet filtering via DuckDB, Redis-backed async jobs, and Dapr data lineage. |
-| **Privacy-First ECG Extractor** | Pulls clinical device data with zero PII by design, on a clean/hexagonal architecture. |
-| **Document Intelligence & RAG** | OCR pipelines (PP-OCR / Tesseract) fused with LLM analysis; retrieval over enterprise documents via Milvus and Elasticsearch. |
-| **AI Agents & Automation** | n8n workflows and RetellAI voice agents wired into Slack, Notion, and ClickUp via native connectors and REST APIs. |
+A few highlights from client and research work. Not everything, just what I can talk about publicly:
+
+- **A platform for turning models into services.** I designed the architecture for a ~14k-line Python SDK that takes an MLflow-registered model and turns it into its own FastAPI microservice, no manual glue code. Before anything goes live it passes through a 4-step gate (version resolve, metadata check, dependency check, smoke test), and it works across scikit-learn, XGBoost, PyTorch, TensorFlow, ONNX, and Transformers models.
+- **Computer vision work.** My thesis trained models to classify architectural styles from images using historical and geographic context. It's the project that got me hooked on CV in the first place ([code](https://github.com/YOUR_USERNAME/THESIS_REPO)).
+- **Document intelligence and RAG.** OCR (PP-OCR / Tesseract) combined with LLM analysis, and retrieval over internal documents using Milvus and Elasticsearch.
+- **Agents and automation.** n8n workflows and voice agents (RetellAI) wired into Slack, Notion, and ClickUp so people don't have to do the boring parts by hand.
+- **A privacy-first ECG extractor.** Pulls data straight from clinical devices without ever touching PII. Built that way from the ground up, not bolted on after.
 
 ---
 
@@ -82,14 +83,7 @@ I build the infrastructure that gets machine learning out of notebooks and into 
 ### Repositories
 
 <!-- REPOS-START -->
-<div align="center">
-
-<a href="https://github.com/hox3n/hox3n"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=hox3n&theme=github_dark&hide_border=true" alt="hox3n" /></a>
-<a href="https://github.com/hox3n/mikrotez"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=mikrotez&theme=github_dark&hide_border=true" alt="mikrotez" /></a>
-<br/>
-<a href="https://github.com/hox3n/app-portfolio-agent"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=app-portfolio-agent&theme=github_dark&hide_border=true" alt="app-portfolio-agent" /></a>
-
-</div>
+<sub>⏳ populated automatically by the GitHub Action below on first run</sub>
 <!-- REPOS-END -->
 
 <sub>These cards are generated automatically by <code>.github/workflows/update-readme.yml</code>, which pulls every public, non-fork repo from the GitHub API (newest activity first), refreshed every 5 hours.</sub>
@@ -101,14 +95,14 @@ I build the infrastructure that gets machine learning out of notebooks and into 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=hox3n&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58A6FF&title_color=58A6FF" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=hox3n&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=hox3n&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58A6FF&title_color=58A6FF" alt="GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58A6FF&title_color=58A6FF" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58A6FF&title_color=58A6FF" alt="GitHub stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=hox3n&layout=compact&theme=github_dark&hide_border=true&langs_count=10&title_color=58A6FF" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=hox3n&layout=compact&theme=default&hide_border=true&langs_count=10" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hox3n&layout=compact&theme=github_dark&hide_border=true&langs_count=10&title_color=58A6FF" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true&langs_count=10&title_color=58A6FF" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=default&hide_border=true&langs_count=10" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true&langs_count=10&title_color=58A6FF" alt="Top languages" />
 </picture>
 
 </div>
@@ -116,9 +110,9 @@ I build the infrastructure that gets machine learning out of notebooks and into 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=hox3n&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=58A6FF" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=hox3n&theme=default&hide_border=true" />
-  <img src="https://streak-stats.demolab.com?user=hox3n&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=58A6FF" alt="GitHub streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=58A6FF" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=default&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=58A6FF" alt="GitHub streak" />
 </picture>
 
 </div>
@@ -130,20 +124,21 @@ I build the infrastructure that gets machine learning out of notebooks and into 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-liard-delta.vercel.app/?username=hox3n&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy-liard-delta.vercel.app/?username=hox3n&theme=flat&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
-  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=hox3n&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub trophies" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-liard-delta.vercel.app/?username=YOUR_USERNAME&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy-liard-delta.vercel.app/?username=YOUR_USERNAME&theme=flat&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
+  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=YOUR_USERNAME&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub trophies" />
 </picture>
 
 </div>
 
 ---
 
-### Research & Highlights
+### Research & Other Interests
 
-- **Thesis:** *Classification of Architectural Styles in Images with Historical and Geographical Attribution* — a computer vision project ([code](https://github.com/hox3n/THESIS_REPO)).
-- **KAG AI:** co-founded an AI research group spanning Kosovo, Albania, and Greece; authored articles on CNNs in medicine and architectural design, currently researching LLMs.
-- Former core member of the **Google Developers Club**, American College of Thessaloniki.
+- My thesis trained models to classify architectural styles in images using historical and geographic context. That's where my interest in CV started.
+- I co-founded KAG AI, a small research group spanning Kosovo, Albania, and Greece. We've written about CNNs in medicine and architecture, and lately I've been digging into LLMs.
+- Was a core member of the Google Developers Club back at the American College of Thessaloniki.
+- Outside of ML: history, architecture, and law. I'm always looking for an excuse to point a model at one of them instead of another benchmark dataset.
 
 ---
 
