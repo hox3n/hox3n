@@ -5,7 +5,7 @@ on:
     - cron: '0 */5 * * *'   # every 5 hours
   push:
     branches: [main]
-  workflow_dispatch:       # lets you trigger it manually from the Actions tab
+  workflow_dispatch:       
 
 permissions:
   contents: write
@@ -33,7 +33,6 @@ jobs:
           owner = os.environ["OWNER"]
           token = os.environ["GH_TOKEN"]
 
-          # Fetch every public repo (paginated, in case there are more than 100)
           repos = []
           page = 1
           while True:
@@ -48,32 +47,29 @@ jobs:
               repos.extend(batch)
               page += 1
 
-          # Drop forks/archived; show everything else, most recently pushed first
           repos = [r for r in repos if not r["fork"] and not r["archived"]]
           repos.sort(key=lambda r: r["pushed_at"], reverse=True)
 
           if not repos:
               block = '<div align="center"><sub>No public repos found yet.</sub></div>'
           else:
-              header = "| Repository | Description | Language | ⭐ | Updated |\n"
-              header += "|---|---|---|---|---|\n"
-              rows = []
+              cards = []
               for r in repos:
-                  name = f'[{r["name"]}]({r["html_url"]})'
-                  desc = (r["description"] or "").replace("|", "-")
-                  lang = r["language"] or "—"
-                  stars = r["stargazers_count"]
-                  updated = r["pushed_at"][:10]
-                  rows.append(f"| {name} | {desc} | {lang} | {stars} | {updated} |")
-              block = header + "\n".join(rows)
+                  img = (
+                      "https://github-stats-extended.vercel.app/api/pin/"
+                      f"?username={owner}&repo={r['name']}&theme=github_dark&hide_border=true"
+                  )
+                  cards.append(
+                      f'<a href="{r["html_url"]}"><img height="150em" src="{img}" alt="{r["name"]}" /></a>'
+                  )
+              rows = ["\n".join(cards[i:i + 2]) for i in range(0, len(cards), 2)]
+              block = '<div align="center">\n\n' + "\n<br/>\n".join(rows) + "\n\n</div>"
 
           with open("README.md", "r") as f:
               content = f.read()
 
-          # Fill in the username wherever it still appears as a placeholder
           content = content.replace("YOUR_USERNAME", owner)
 
-          # Rewrite the pinned-repos block between the markers
           content = re.sub(
               r"<!-- REPOS-START -->.*<!-- REPOS-END -->",
               f"<!-- REPOS-START -->\n{block}\n<!-- REPOS-END -->",
