@@ -89,7 +89,12 @@ A few highlights from client and research work. Not everything, just what I can 
 <!-- REPOS-START -->
 <div align="center">
 
+<a href="https://github.com/hox3n/Architectural-styles-classification"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=Architectural-styles-classification&theme=github_dark&hide_border=true" alt="Architectural-styles-classification" /></a>
+<a href="https://github.com/hox3n/Credit-Scoring-prediction"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=Credit-Scoring-prediction&theme=github_dark&hide_border=true" alt="Credit-Scoring-prediction" /></a>
+<br/>
+<a href="https://github.com/hox3n/Brain-tumor-MRI-classification"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=Brain-tumor-MRI-classification&theme=github_dark&hide_border=true" alt="Brain-tumor-MRI-classification" /></a>
 <a href="https://github.com/hox3n/hox3n"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=hox3n&theme=github_dark&hide_border=true" alt="hox3n" /></a>
+<br/>
 <a href="https://github.com/hox3n/app-portfolio-agent"><img height="150em" src="https://github-stats-extended.vercel.app/api/pin/?username=hox3n&repo=app-portfolio-agent&theme=github_dark&hide_border=true" alt="app-portfolio-agent" /></a>
 
 </div>
