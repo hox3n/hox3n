@@ -1,4 +1,4 @@
-<!-- Replace hox3n with your GitHub username (Find & Replace All) -->
+<!-- Replace YOUR_USERNAME with your GitHub username (Find & Replace All) -->
 <!-- The Repositories table below is filled in automatically by the GitHub Action -->
 
 <div align="center">
@@ -7,7 +7,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/00_STATUS-ONLINE-39FF14?style=for-the-badge&labelColor=0d1117" alt="status" />
-  <img src="https://komarev.com/ghpvc/?username=hox3n&color=0d1117&style=for-the-badge&label=VISITORS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=0d1117&style=for-the-badge&label=VISITORS" alt="Profile views" />
   <img src="https://img.shields.io/badge/BASE-TIRANA_%F0%9F%87%A6%F0%9F%87%B1-0d1117?style=for-the-badge" alt="Location" />
 </p>
 
@@ -80,11 +80,7 @@ engineer:
 ### REPOSITORIES
 
 <!-- REPOS-START -->
-| Repository | Description | Language | ⭐ | Updated |
-|---|---|---|---|---|
-| [hox3n](https://github.com/hox3n/hox3n) |  | — | 0 | 2026-09-16 |
-| [mikrotez](https://github.com/hox3n/mikrotez) |  | HTML | 0 | 2025-09-22 |
-| [app-portfolio-agent](https://github.com/hox3n/app-portfolio-agent) |  | Python | 0 | 2025-09-17 |
+<sub>⏳ populated automatically by the GitHub Action below on first run</sub>
 <!-- REPOS-END -->
 
 <sub>💡 This table is rewritten automatically by <code>.github/workflows/update-readme.yml</code>, which pulls every public, non-fork repo from the GitHub API (newest activity first) — nothing to type in by hand, refreshed every 5 hours.</sub>
@@ -96,9 +92,9 @@ engineer:
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hox3n/hox3n/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hox3n/hox3n/output/github-contribution-grid-snake.svg" />
-  <img alt="a snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/hox3n/hox3n/output/github-contribution-grid-snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" />
+  <img alt="a snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
 </div>
@@ -110,16 +106,12 @@ engineer:
 ### GITHUB STATS
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hox3n&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58A6FF&title_color=58A6FF" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hox3n&layout=compact&theme=github_dark&hide_border=true&langs_count=10&title_color=58A6FF" alt="Top languages" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58A6FF&title_color=58A6FF" alt="GitHub stats" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true&langs_count=10&title_color=58A6FF" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=hox3n&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=58A6FF" alt="GitHub streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hox3n&theme=react-dark&hide_border=true&area=true&bg_color=0d1117&color=58A6FF&line=58A6FF" alt="Contribution graph" width="100%" />
+  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true&ring=58A6FF&fire=58A6FF" alt="GitHub streak" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:58A6FF,100:0d1117&height=3&width=100%" width="100%" />
@@ -127,14 +119,14 @@ engineer:
 ### TROPHY CASE
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hox3n&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub trophies" />
+  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=YOUR_USERNAME&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub trophies" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:58A6FF,100:0d1117&height=3&width=100%" width="100%" />
 
 ### RESEARCH & HIGHLIGHTS
 
-- 🎓 **Thesis:** *Classification of Architectural Styles in Images with Historical and Geographical Attribution* — a computer vision project ([code](https://github.com/hox3n/THESIS_REPO)).
+- 🎓 **Thesis:** *Classification of Architectural Styles in Images with Historical and Geographical Attribution* — a computer vision project ([code](https://github.com/YOUR_USERNAME/THESIS_REPO)).
 - 🧪 **KAG AI:** co-founded an AI research group spanning Kosovo, Albania, and Greece; authored articles on CNNs in medicine and architectural design, currently researching LLMs.
 - 👥 Former core member of the **Google Developers Club**, American College of Thessaloniki.
 
