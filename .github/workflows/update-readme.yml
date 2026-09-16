@@ -5,7 +5,7 @@ on:
     - cron: '0 */5 * * *'   # every 5 hours
   push:
     branches: [main]
-  workflow_dispatch:       
+  workflow_dispatch:       # lets you trigger it manually from the Actions tab
 
 permissions:
   contents: write
@@ -33,6 +33,7 @@ jobs:
           owner = os.environ["OWNER"]
           token = os.environ["GH_TOKEN"]
 
+          # Fetch every public repo (paginated, in case there are more than 100)
           repos = []
           page = 1
           while True:
@@ -47,6 +48,7 @@ jobs:
               repos.extend(batch)
               page += 1
 
+          # Drop forks/archived; show everything else, most recently pushed first
           repos = [r for r in repos if not r["fork"] and not r["archived"]]
           repos.sort(key=lambda r: r["pushed_at"], reverse=True)
 
@@ -68,8 +70,10 @@ jobs:
           with open("README.md", "r") as f:
               content = f.read()
 
+          # Fill in the username wherever it still appears as a placeholder
           content = content.replace("YOUR_USERNAME", owner)
 
+          # Rewrite the pinned-repos block between the markers
           content = re.sub(
               r"<!-- REPOS-START -->.*<!-- REPOS-END -->",
               f"<!-- REPOS-START -->\n{block}\n<!-- REPOS-END -->",
